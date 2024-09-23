@@ -1,0 +1,50 @@
+body {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: hsl(237, 70%, 95%);
+}
+
+.sec-2 {
+  border-radius: 0 70px 0 70px;
+  height: 65vh;
+  background-position: center;
+  position: relative;
+}
+.sec-2cont {
+  position: relative;
+  bottom: 50px;
+}
+footer {
+  border-radius: 0 60px 0 0;
+}
+
+footer h2 {
+  font-weight: 600;
+  color: white;
+  padding-bottom: 15px;
+}
+footer ul {
+  color: rgb(224, 224, 254);
+}
+@media screen and (max-width: 768px) {
+  .sec-2 {
+    height: 70vh;
+  }
+  .sec-2cont {
+    bottom: 80px;
+    text-align: center;
+  }
+
+  footer h2 {
+    font-weight: 600;
+    color: white;
+    padding: 15px 0 5px 0;
+  }
+  footer ul {
+    color: rgb(224, 224, 254);
+  }
+  .foot-img {
+    margin-left: 38%;
+  }
+}
